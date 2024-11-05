@@ -226,3 +226,90 @@ header h1{
         width: 100%;
     }
 }
+
+
+footer{
+    background: url(IMG_black_diamond/Fondo.jpeg);
+    background-repeat: repeat-y;
+    background-position: center;
+    padding: 10px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    width: 1329px;
+}
+
+footer section{
+    float: left;
+    margin-right: 100px;
+    padding-left: 300px;
+}
+
+footer p{
+    float: center;
+}
+
+footer a{
+transition: color 0.3s ease;
+color: white;
+text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.logo{
+    width: 65x;
+    height: 65px;
+    background: url(IMG/LOGO.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(0px 7px 21px #35e911);
+    animation: rotar 5s linear infinite;
+    margin-left: 630px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+@keyframes rotar{
+    from{
+        transform: rotateY(180deg);
+    }
+    to{
+        transform: rotateY(-180deg);
+    }
+}
+
+.logoo{
+    width: 65x;
+    height: 65px;
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(0px 7px 21px #ffffff);
+    animation: rotar 5s linear infinite;
+    margin-left: 600px;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+
+input.email{
+    width: 500px;
+    margin-left: 380px;
+}
+
+.logosapp{
+    margin-left: 605px;
+}
