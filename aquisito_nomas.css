@@ -232,10 +232,9 @@ footer{
     background: url(IMG_black_diamond/Fondo.jpeg);
     background-repeat: repeat-y;
     background-position: center;
-    padding: 10px;
     background-color: black;
     color: rgb(255, 255, 255);
-    width: 1329px;
+    width: 100%;
 }
 
 footer section{
