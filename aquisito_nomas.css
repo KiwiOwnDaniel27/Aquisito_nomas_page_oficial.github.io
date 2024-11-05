@@ -3,11 +3,32 @@
     padding: 0;
 }
 
+html{
+    font-family: "Kablammo", serif;
+}
+
+.kablammo-<uniquifier> {
+    font-family: "Kablammo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "MORF" 0;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
 header{
     background: url(IMG-AQUISITO-NOMAS/Centro\ minimalista.jpeg);
     background-size: cover;
     background-position: center;
     height: 275px;
+    font-family: "Kablammo", serif;
 }
 
 header h1{
