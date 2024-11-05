@@ -227,7 +227,6 @@ header h1{
     }
 }
 
-
 footer{
     background: url(IMG_black_diamond/Fondo.jpeg);
     background-repeat: repeat-y;
@@ -261,11 +260,8 @@ footer a:hover {
     width: 65x;
     height: 65px;
     background: url(IMG/LOGO.jpg);
-    background-position: center;
-    background-size: cover;
     filter: drop-shadow(0px 7px 21px #35e911);
     animation: rotar 5s linear infinite;
-    margin-left: 630px;
 }
 
 .logo:hover{
@@ -288,7 +284,6 @@ footer a:hover {
     background-size: cover;
     filter: drop-shadow(0px 7px 21px #ffffff);
     animation: rotar 5s linear infinite;
-    margin-left: 600px;
 }
 
 h2{
@@ -304,11 +299,18 @@ p{
 }
 
 
-input.email{
+.suscribete{
+    text-align: center;
+}
+
+.email{
     width: 500px;
-    margin-left: 380px;
 }
 
 .logosapp{
+    text-align: center;
+}
+
+.footerlogos{
     text-align: center;
 }
