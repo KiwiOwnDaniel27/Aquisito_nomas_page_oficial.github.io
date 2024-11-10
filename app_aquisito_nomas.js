@@ -29,6 +29,13 @@ function ready(){
         var button = botonesRestarCantidad[i];
         button.addEventListener('click', restarCantidad);
     }
+
+    //Agregamos funcionalidad a los botones agregar al carrito
+    var botonesAgregarAlCarrito = document.getElementsByClassName('boton-item');
+    for (var i=0; i <botonesAgregarAlCarrito.length; i++){
+        var button = botonesAgregarAlCarrito[i];
+        button.addEventListener('click', agregarAlCarritoClicked);
+    }
 }
 
 //Elimino el item seleccionado del carrito
@@ -89,5 +96,33 @@ function restarCantidad(event){
         selector.getElementsByClassName('carrito-item-cantidad')[0].value = cantidadActual;
         //Actualizamos el carrito total
         actualizarTotalCarrito();
+    }
+}
+
+function agregarAlCarritoClicked(event){
+    var button = event.target;
+    var item = button.parentElement;
+    var titulo = item.getElementsByClassName('titulo-item')[0].innerText;
+    console.log(titulo);
+    var precio = item.getElementsByClassName('precio-item')[0].innerText;
+    var imagenSrc = item.getElementsByClassName('img-item')[0].src;
+    console.log(imagenSrc);
+
+    //La siguiente funcion agrega el elemento al carrito, le mando por parametros los valores
+    agregarItemAlCarrito(titulo, precio, imagenSrc);
+}
+
+function agregarItemAlCarrito(titulo, precio, imagenSrc){
+    var item = document.createElement('div');
+    item.classList.add = 'item';
+    var ItemsCarrito = document.getElementsByClassName('carrito-items')[0];
+
+    //Vamos a controlar que el item esta ingresanfo no se encuentre ta en el carrito
+    var nombresItemsCarrito = ItemsCarrito.getElementsByClassName('carrito-item-titulo');
+    for (var i=0; i < nombresItemsCarrito.length; i++){
+        if(nombresItemsCarrito[i].innerText==titulo){
+            alert("El producto ya se encuentra en el carrito");
+            return;
+        }
     }
 }
