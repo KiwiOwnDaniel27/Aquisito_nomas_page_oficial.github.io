@@ -66,9 +66,3 @@ function ocultarCarrito(){
         items.style.width='100%'
     }
 }
-        
-        //ahora maximixo el contenedor de los elementos
-        var items = document.getElementsByClassName('contenedor-items')[0];
-        items.style.width = '100%';
-    }
-}
