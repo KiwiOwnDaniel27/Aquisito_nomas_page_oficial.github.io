@@ -34,7 +34,7 @@ header h1{
 .contenedor{
     max-width: 1200px;
     padding: 10px;
-    margin: auto;
+    margin: 50px;
     display: flex;
     justify-content: space-between;
     contain: paint;
