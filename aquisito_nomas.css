@@ -71,7 +71,7 @@ header h1{
 
 .contenedor-items .item .titulo-item{
     display: block;
-    font-weight: bold;
+    font-size: 15px;
     text-align: center;
     text-transform: uppercase;
 }
