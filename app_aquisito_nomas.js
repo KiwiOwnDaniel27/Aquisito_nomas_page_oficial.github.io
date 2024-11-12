@@ -175,6 +175,6 @@ function pagarClicked(event){
     }
     actualizarTotalCarrito();
 
-    //Funcion que oculta al carrito
+    //Funcion que oculta al carrito correguir
     
 }
