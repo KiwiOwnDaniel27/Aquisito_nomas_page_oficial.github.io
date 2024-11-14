@@ -331,7 +331,7 @@ p{
     display: inline-flex;
 }
 
-p{
+.message-carrito{
     font-size: 15px;
     font-style: oblique;
     padding: 30px;
