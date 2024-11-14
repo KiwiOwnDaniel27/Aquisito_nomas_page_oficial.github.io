@@ -337,3 +337,17 @@ p{
     padding: 30px;
     font-weight: bold;
 }
+
+.precio-item{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.carrito-item-precio{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
