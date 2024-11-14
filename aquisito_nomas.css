@@ -332,6 +332,10 @@ p{
 }
 
 .message-carrito{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     font-size: 15px;
     font-style: oblique;
     padding: 30px;
