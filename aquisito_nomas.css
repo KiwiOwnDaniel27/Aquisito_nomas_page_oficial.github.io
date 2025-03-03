@@ -4,7 +4,9 @@
 }
 
 html{
-    font-family: "Kablammo", serif;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 h1{
@@ -15,6 +17,7 @@ h1{
 h2{
     font-size: 35px;
     text-align: center;
+    font-family: "Kablammo", serif;
 }
 
 h3{
@@ -266,6 +269,7 @@ footer{
     background-color: black;
     color: rgb(255, 255, 255);
     width: 100%;
+    font-family: "Kablammo", serif;
 }
 
 footer section{
